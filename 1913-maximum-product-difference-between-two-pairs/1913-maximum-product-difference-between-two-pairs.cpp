@@ -6,7 +6,7 @@ public:
         int n=nums.size();
         int ab=nums[0]*nums[1];
         int cd=nums[n-1]*nums[n-2];
-        ans=abs(ab-cd);
+        ans=cd-ab;
         return ans;
     }
 };
